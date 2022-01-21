@@ -1,7 +1,9 @@
 <header>
     <div class="container">
     <div class="logo">
-      <img src="{{ asset('img/dc-logo.png') }}" alt="logo DC">
+      <a href="{{ route('home') }}">
+        <img src="{{ asset('img/dc-logo.png') }}" alt="logo DC">
+      </a>
     </div>
     <div class="menu">
       <ul>
