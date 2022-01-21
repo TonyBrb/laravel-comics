@@ -1,0 +1,38 @@
+ .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo{
+    width: 60px;
+    img{
+      width: 100%;
+    }
+    
+  }
+
+  .menu{
+    @include center();
+    ul{
+      display: flex;
+      list-style: none;
+        li{
+          line-height: 51px;
+          padding: 5px;
+          font-size: 12px;
+          color: black;
+            &:hover{
+              border-bottom: solid 3px #0282F9;
+            }
+
+          a{
+            
+            text-decoration: none;
+            color: black;
+           &.active{
+             border-bottom: solid 3px #0282F9;
+           }
+          }
+        }
+    }
+  }

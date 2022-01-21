@@ -1,5 +1,10 @@
 //
 
-body{
-  background-color: green;
-}
+@import 'partials/generals';
+@import 'partials/mixins';
+@import 'partials/utilities';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/productCard';
+@import 'partials/bf';
+@import 'partials/footer';
